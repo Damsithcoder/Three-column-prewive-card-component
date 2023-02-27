@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+   
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    min-height: 800px;
+    max-width: 1440px;
+    background-color:  hsl(0, 0%, 95%);
+
+
+}
+main{
+    display: flex;
+    width:900px;
+    justify-content: center;
+    border-radius: 15px;
+     
+    overflow: hidden;
+    
+
+    align-items: center;
+
+}
+.col{
+    display:flex;
+    flex-direction: column;
+    
+    height:500px;
+     justify-content: space-between;
+   align-content: center;
+   padding: 50px;
+     
+
+
+}
+ 
+img{
+    max-width: 50%;
+}
+.col-1{
+    background-color: hsl(31, 77%, 52%);
+}
+.col-2{
+    background-color: hsl(184, 100%, 22%);
+}
+.col-3{
+    background-color: hsl(179, 100%, 13%)
+    ;
+}
+.btn{
+     width: 150px;
+     padding: 10px;
+     border-radius: 20px;
+     
+     border: 3px  hsl(0, 0%, 95%) solid;
+     background-color:  hsl(0, 0%, 95%)s;
+}
+.btn:hover{
+    background-color: transparent;
+    color: hsl(0, 0%, 95%);
+}
+.title{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.discription{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+@media screen and ( width:375px) {
+    .container{
+        flex-direction: column;
+        
+         width: 300px;
+        
+    }
+    body{
+      
+        min-height: 1503px;
+    }
+    
+}
